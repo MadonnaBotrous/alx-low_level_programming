@@ -1,20 +1,19 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 /**
 * main - Entry point
 *
 * Return: Always 0 (Success)
 */
-int main(void)
+
+int main (void)
 {
-    
-   {
+        char str = "_putchar\n";
+        int i;
+                for(i=0; i++; str[i] !='\0');
+                {
+                _putchar (str[i]);
+                }
+        return (0);
 
-	char x [] = "_pucher";
-	printf(x);
 
-
-   }
-return (0);
 }
