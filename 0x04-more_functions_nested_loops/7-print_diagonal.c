@@ -1,21 +1,27 @@
 #include "main.h"
 /**
- * print_diagonal - a function to print a diagonal
- * @n - the lengh of the diagonal
- * return: void
+ * print_diagonal - printing a diagonal line
+ * @n: the length of the line
+ * Return: void
  */
+
 void print_diagonal(int n)
 {
-int i, j;
+int i;
+int j;
 
-for (i = 0; i < n; i++) 
+if (n <= 0)
 {
-// Print spaces for each row
-for (j = 0; j < i; j++) 
+_putchar('\n');
+return;
+}
+
+for (j = 0 ; j < n ; j++)
+{
+for (i = 0 ; i < j ; i++)
 {
 _putchar(' ');
 }
-// Print the backslash
 _putchar('\\');
 _putchar('\n');
 }
