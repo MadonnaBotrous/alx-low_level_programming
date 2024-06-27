@@ -1,14 +1,11 @@
 #nclude "main.h"
-
 /**
- * int _isdigit checking  for a digit  (0 through 9)
- * @c is character to be checked 
- * if c is a digit return 1 | is else return o
+ * _isdigit - checking if the paramater is a digit or not
+ * @c: a character to be checked
+ * Return: 1 if it s a digit - 0 if it's not
  */
-
 int _isdigit(int c)
 {
-c=0
 if (c > 47 && c < 58)
 return (1);
 else
