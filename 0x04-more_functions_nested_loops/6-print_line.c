@@ -1,15 +1,15 @@
 #include "main.h"
 /**
- * print_line - printing straight line 
- * @n : the length of the line
- * return :void
+ * print_line - printing a straight line
+ * @n: the length of the line
+ * Return: void
  */
 
 void print_line(int n)
 {
 int i;
 
-for (i = 0 ; i <= n ; i++)
+for (i = 0 ; i < n ; i++)
 {
 _putchar('_');
 }
