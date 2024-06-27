@@ -5,7 +5,7 @@
  * Return: 1 if it's an upper - 0 if it's not
  */
 
-int _isupper(int c);
+int _isupper(int c)
 {
 if (c > 64 && c < 91)
 return (1);
