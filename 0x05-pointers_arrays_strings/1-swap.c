@@ -4,9 +4,10 @@
  * @a: the fisrt intiger to be swapped
  * @b: the second intiger to be swapped
  */
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
-int temp = *a;
+int temp
+temp = *a;
 *a = *b;
 *b = temp;
 }
