@@ -1,15 +1,18 @@
 #include "main.h"
+
 /**
- *strlen - the length of string to be shown
- *@s: sting to be mesured
- *return: value of i
+ * _strlen - resets the value of an int var to 98
+ * @s: string to be mesuared
+ * Return: the value of i
  */
+
 int _strlen(char *s)
 {
-int i = 0;
-while(*(s+i) != '\0')
+int i  = 0;
+
+while (*(s + i) != '\0')
 {
-i++;
+	i++;
 }
 return (i);
 }
