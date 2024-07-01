@@ -13,7 +13,7 @@ int main(void)
     printf("n = %d\n", n);  // Print the initial value of n (may be undefined)
 
     reset_to_98(&n);
-    printf("n = %d\n", n);
+    _putchar("n = %d\n", n);
 
     return 0;
 }
