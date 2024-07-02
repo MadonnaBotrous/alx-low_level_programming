@@ -1,15 +1,19 @@
 #include "main.h"
+
 /**
- *puts -  a function that prints a string
- *@str: the string that will be printed
+ * _puts - resets the value of an int var to 98
+ * @str: string to be printed
+ * Return: On success 0
  */
+
 void _puts(char *str)
 {
-int i = 0;
-while(*(s + i) != '\0')
+int i  = 0;
+
+while (*(str + i) != '\0')
 {
-_putchar (*(s + i));
-i++;
+	_putchar(*(str + i));
+	i++;
 }
-_putchar ('\n');
+_putchar('\n');
 }
